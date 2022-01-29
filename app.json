@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Recipes",
+    "slug": "Recipes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Menu.png",
+    "splash": {
+      "image": "./assets/italian.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"ferozkhan1984.Store",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Menu.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
